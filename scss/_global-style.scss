@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    color: #000000;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}

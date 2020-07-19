@@ -1,0 +1,12 @@
+.main-nav--modal {
+    display: flex;
+}
+.open-nav-btn__line--1 {
+    transform: translateY(10px) rotate(40deg);
+}
+.open-nav-btn__line--2 {
+    opacity: 0;
+}
+.open-nav-btn__line--3 {
+    transform: translateY(-10px) rotate(-40deg);
+}

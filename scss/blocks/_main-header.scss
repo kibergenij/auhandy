@@ -1,0 +1,129 @@
+
+.main-header {
+    background-color: #ffffff;
+
+    font-family: "Lato", 'Arial', sans-serif;
+    font-weight: 400;
+}
+.main-header__social-bgColumn {
+    background-color: #f2f2f2;
+    padding: 1% 0;
+}
+.main-header__social-column {
+    p {
+
+        color: $header-social-color;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+.main-header__social-item {
+    margin-left: 3%;
+    a {
+        color: $header-social-color;
+    }
+}
+.main-header__colums {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.main-header__logo-colums {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 0;
+}
+.main-header__head {
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+    color: $dark-header-color;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.main-header__head-text {
+    margin-bottom: 1%;
+
+    color: $header-social-color;
+    font-size: 14px;
+    line-height: 22px;
+}
+.main-nav {
+    padding: -5px 0;
+}
+.main-nav__item {
+    display: block;
+    margin: 5px 0;
+    margin-left: 5%;
+
+    color: $header-nav-color;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        color: $yellow;
+    }
+}
+.open-nav-btn {
+    display: none;
+    width: 8%;
+    height: 100%;
+    opacity: .5;
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+.open-nav-btn__line {
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+    display: block;
+    &:nth-child(2){
+        margin: 6px auto;
+     }
+}
+
+@media (max-width: 768px) {
+    .open-nav-btn {
+        display: block;
+    }
+
+    .main-nav {
+        padding: 0;
+        display: none;
+    }
+    .main-nav__item {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #000000;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        margin: 0;
+        padding: 4% 0;
+        &:first-child {
+            border-top: 1px solid #000000;
+        }
+        &:nth-child(7){
+            border: 0;
+         }
+        &:hover {
+            background-color: $yellow;
+            color: #000000;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .main-header__social-column {
+        p {
+            display: none;
+        }
+    }
+    .main-header__social-item {
+        margin-left: 8%;
+    }
+}
