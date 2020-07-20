@@ -127,7 +127,7 @@ a:hover {
 }
 
 .main-nav {
-  padding: -5px 0;
+  padding: 0;
 }
 
 .main-nav__item {
@@ -230,6 +230,10 @@ a:hover {
   color: #cccccc;
   font-size: 18px;
   margin-bottom: 7%;
+}
+
+.about-us__main_content-colums {
+  padding: 0px;
 }
 
 .btn-colums a {
@@ -778,6 +782,7 @@ a:hover {
   color: #ffffff;
   font-size: 36px;
   font-weight: 700;
+  padding: 0;
 }
 
 .feedback__phone-Colum a {
@@ -792,6 +797,10 @@ a:hover {
   background-image: url(../img/mapForm-BG.png);
   padding-top: 6%;
   padding-bottom: 8%;
+}
+
+.feedback__mapForm-colums {
+  padding: 0;
 }
 
 .feedback__mapForm-colums h2 {
@@ -910,6 +919,9 @@ a:hover {
   }
   .feedback__form-head::before {
     display: none;
+  }
+  .feedback__form-Colums {
+    padding-left: 0;
   }
 }
 

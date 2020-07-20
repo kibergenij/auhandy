@@ -13,6 +13,7 @@
         color: $white;
         font-size: 36px;
         font-weight: 700;
+        padding: 0;
     }
     a {
         color: $white;
@@ -28,6 +29,7 @@
     padding-bottom: 8%;
 }
 .feedback__mapForm-colums {
+    padding: 0;
     h2 {
         padding-bottom: 1rem;
         margin-bottom: 2rem;
@@ -160,6 +162,9 @@
         &::before {
             display: none;
         }
+    }
+    .feedback__form-Colums {
+        padding-left: 0;
     }
 }
 @media (max-width: 576px ) {
