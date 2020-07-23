@@ -484,7 +484,7 @@ a:hover {
   position: relative;
 }
 
-.services__cards-column a {
+.services__cards-column .services__cards-link {
   display: block;
 }
 
