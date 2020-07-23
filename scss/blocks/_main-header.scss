@@ -100,6 +100,12 @@
 }
 
 @media (max-width: 768px) {
+    .main-header {
+        min-height: 122px;
+    }
+    .main-header__-bg-colums {
+        min-height: 72px;  //50px
+    }
     .open-nav-btn {
         display: block;
     }

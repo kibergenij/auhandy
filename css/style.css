@@ -73,6 +73,10 @@ a:hover {
       flex-wrap: wrap;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .main-header {
   background-color: #ffffff;
   font-family: "Lato", 'Arial', sans-serif;
@@ -180,6 +184,12 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .main-header {
+    min-height: 122px;
+  }
+  .main-header__-bg-colums {
+    min-height: 72px;
+  }
   .open-nav-btn {
     display: block;
   }

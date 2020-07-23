@@ -4,7 +4,9 @@ $('.open-nav-btn').click(function(evt) {
     $('#line-1').toggleClass('open-nav-btn__line--1');
     $('#line-2').toggleClass('open-nav-btn__line--2');
     $('#line-3').toggleClass('open-nav-btn__line--3');
+    $('body').toggleClass('overflow');
 });
+
 
 $('.open-nav-btn').on('touchstart',function(evt) {
     evt.preventDefault();
@@ -12,6 +14,7 @@ $('.open-nav-btn').on('touchstart',function(evt) {
     $('#line-1').toggleClass('open-nav-btn__line--1');
     $('#line-2').toggleClass('open-nav-btn__line--2');
     $('#line-3').toggleClass('open-nav-btn__line--3');
+    $('body').toggleClass('overflow');
 });
 
 
