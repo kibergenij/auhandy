@@ -77,11 +77,19 @@ a:hover {
   background-color: #ffffff;
   font-family: "Lato", 'Arial', sans-serif;
   font-weight: 400;
+  position: relative;
+  min-height: 172px;
 }
 
 .main-header__social-bgColumn {
   background-color: #f2f2f2;
-  padding: 1% 0;
+  min-height: 50px;
+  position: fixed;
+  z-index: 100;
+}
+
+.main-header__social-column {
+  min-height: inherit;
 }
 
 .main-header__social-column p {
@@ -98,9 +106,13 @@ a:hover {
   color: #666666;
 }
 
-.main-header__colums {
-  margin-top: 1%;
-  margin-bottom: 1%;
+.main-header__-bg-colums {
+  width: 100%;
+  padding-top: 50px;
+  min-height: 122px;
+  position: fixed;
+  background-color: white;
+  z-index: 50;
 }
 
 .main-header__logo-colums {
