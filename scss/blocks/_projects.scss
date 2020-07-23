@@ -71,6 +71,9 @@
     &:hover {
         opacity: 1;
     }
+    &--active {
+        opacity: 1;
+    }
     h3 {
         text-align: center;
         color: $yellow;

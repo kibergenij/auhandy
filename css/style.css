@@ -707,6 +707,10 @@ a:hover {
   opacity: 1;
 }
 
+.projects__item__card-text--active {
+  opacity: 1;
+}
+
 .projects__item__card-text h3 {
   text-align: center;
   color: #ffb619;

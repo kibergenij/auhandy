@@ -42,3 +42,46 @@ $('.services__arrow--back').click(function (evt) {
     $('.services__cards-link--3').css('order',randomOrder3);
     $('.services__cards-link--4').css('order',randomOrder4);
 });
+
+
+$('#projects__nav-item--1').mouseover(function () {
+    $('#projects__card-1').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--1').mouseout(function () {
+    $('#projects__card-1').removeClass('projects__item__card-text--active');
+});
+
+$('#projects__nav-item--2').mouseover(function () {
+    $('#projects__card-2').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--2').mouseout(function () {
+    $('#projects__card-2').removeClass('projects__item__card-text--active');
+});
+
+$('#projects__nav-item--3').mouseover(function () {
+    $('#projects__card-3').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--3').mouseout(function () {
+    $('#projects__card-3').removeClass('projects__item__card-text--active');
+});
+
+$('#projects__nav-item--4').mouseover(function () {
+    $('#projects__card-4').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--4').mouseout(function () {
+    $('#projects__card-4').removeClass('projects__item__card-text--active');
+});
+
+$('#projects__nav-item--5').mouseover(function () {
+    $('#projects__card-5').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--5').mouseout(function () {
+    $('#projects__card-5').removeClass('projects__item__card-text--active');
+});
+
+$('#projects__nav-item--6').mouseover(function () {
+    $('#projects__card-6').addClass('projects__item__card-text--active');
+});
+$('#projects__nav-item--6').mouseout(function () {
+    $('#projects__card-6').removeClass('projects__item__card-text--active');
+});
